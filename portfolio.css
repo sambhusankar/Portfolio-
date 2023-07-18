@@ -107,7 +107,7 @@ justify-content:center;
   text-align: center;
   font-size: 4vw;
   padding-top: 1rem;
-  min-height: 100vh;
+  height: 100vh;
   clear: both;
   overflow:scroll;
 }
@@ -309,6 +309,7 @@ justify-content:center;
   }
   .experience{
     margin-top:5vh;
+    height:70vh;
   }
   .experience h3{
     font-size:150%;
