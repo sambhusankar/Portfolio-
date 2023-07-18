@@ -31,6 +31,7 @@ header .navs li{
   margin:0px 6px;
   color: black;
   font-size:3.5vw;
+  cursor: pointer;
 }
 
 
@@ -40,7 +41,7 @@ justify-content:center;
   align-items:center;
   width:100vw;
   height: 100vh;
-  margin-top:auto;
+  margin-top: 5vh;
 }
 .main img{
   width:30%;
@@ -54,16 +55,20 @@ justify-content:center;
   background: white;
   padding:8px;
   border-radius:8px;
+  cursor: pointer;
 }
 .main .main-content a i{
   margin-top:15px;
   color:black;
+  cursor: pointer;
 }
 .about{
   text-align:center;
   font-size:4vw;
-  height: 100vh;
   padding-top: 1rem;
+  margin-top:5vh;
+  min-height: 100vh;
+  overflow:scroll;
 }
 .about p{
   font-size: 2vw;
@@ -87,9 +92,9 @@ justify-content:center;
   display: inline-block;
   font-size:2vw;
   padding:1rem 3rem;
-  border: 1px solid black;
-  height: 20%;
-  border-radius: 1rem ;
+  border:1px solid black ;
+  border-radius: 1rem;
+
 }
 
 .about .img_det .detail .texts{
@@ -102,7 +107,9 @@ justify-content:center;
   text-align: center;
   font-size: 4vw;
   padding-top: 1rem;
-  height: 100vh;
+  min-height: 100vh;
+  clear: both;
+  overflow:scroll;
 }
 .experience .ex_box{
   display:flex;
@@ -157,7 +164,8 @@ justify-content:center;
   text-align:center;
   font-size:4vw;
   padding-top: 1rem;
-  height:100vh;
+  min-height:100vh;
+  overflow:scroll;
 }
 .projects p{
   font-size:2vw;
@@ -183,6 +191,7 @@ justify-content:center;
   align-items:center;
   height:100vh;
   padding-top: 1rem;
+  overflow:scroll;
 }
 .contact p{
   font-size:2vw;
@@ -226,6 +235,7 @@ justify-content:center;
   header .navs li{
     font-size: 50%;
     font-weight:bold;
+    cursor: pointer;
     }
 
   header ul li:hover{
@@ -234,6 +244,7 @@ justify-content:center;
   header #bars{
     display:inline-block;
     font-size: 9vw;
+    cursor: pointer;
   }
   header .navs.active{
     height:10rem;
@@ -253,6 +264,7 @@ justify-content:center;
     flex-direction:column;
     text-align:center;
     margin-top:5vh;
+   
   }
   .main img{
     width:70vw;
@@ -262,9 +274,7 @@ justify-content:center;
     font-size:120%;
     margin-top:3rem;
   }
-  .about{
-    height: 127vh;
-  }
+  
   .about h3{
     font-size:150%;
   }
@@ -283,7 +293,7 @@ justify-content:center;
   }
   .about .img_det .detail span{
     font-size:200% ;
-    height:55%;
+    height: ;
     display:block;
     margin:1rem auto;
     
@@ -320,7 +330,6 @@ justify-content:center;
     font-size: 5vw;
   }
   .projects{
-    height:400vw;
     margin-top:5vh;
   }
   .projects h3{
@@ -339,8 +348,8 @@ justify-content:center;
     height:110vw;
   }
   .contact{
-    height:45vh;
     margin-top:5vh;
+    height:70vh;
   }
   .contact h3{
     font-size:150%;
