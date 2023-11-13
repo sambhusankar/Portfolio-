@@ -66,12 +66,13 @@ justify-content:center;
   cursor: pointer;
 }
 .about{
+  width:100vw;
   text-align:center;
   font-size:4vw;
   padding-top: 1rem;
   margin-top:5vh;
   min-height: 100vh;
-  overflow:scroll;
+  overflow-y:scroll;
 }
 .about p{
   font-size: 2vw;
