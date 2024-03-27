@@ -39,3 +39,8 @@ lis.childNodes[13].onclick =function(){
  let contact_y=document.querySelector("#contact").getBoundingClientRect();
 window.scrollBy(0,contact_y.y-header_height);
 }
+
+let logo = document.getElementById("logo")
+logo.addEventListener("click", () => {
+  window.scrollTo(0,0)
+})
