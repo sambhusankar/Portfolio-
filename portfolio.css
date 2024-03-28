@@ -157,7 +157,8 @@ justify-content:center;
 }
 .experience .fd .fd_contents{
    display:grid;
-  font-size:80%; grid-template-columns:auto auto;
+  font-size:40%; 
+  grid-template-columns:auto auto;
 }
 
 .experience .fd .fd_contents span{
@@ -177,7 +178,7 @@ justify-content:center;
 }
 .experience .dp .dp_contents{
   display:grid;
-  font-size:80%; grid-template-columns:auto auto;
+  font-size:40%; grid-template-columns:auto auto;
 }
 .experience .dp .dp_contents span{
   text-align:left;
@@ -246,6 +247,9 @@ justify-content:center;
     font-size:9vw;
    
   }
+  header h1:hover{
+    font-size:9.05vw;
+  }
   header .navs{
     text-transform: uppercase;
     display: none; 
@@ -266,6 +270,7 @@ justify-content:center;
 
   header ul li:hover{
     background:white;
+    font-size:9vw;
   }
   header #bars{
     display:inline-block;
